@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Whiteboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="toolbar">
+    <button id="brush" data-tooltip="Brush (B)">Brush</button>
+    <button id="eraser" data-tooltip="Eraser (E)">Eraser</button>
+    <button id="triangle" data-tooltip="Triangle (T)">Triangle</button>
+    <button id="square" data-tooltip="Square (S)">Square</button>
+    <button id="circle" data-tooltip="Circle (C)">Circle</button>
+    <input type="color" id="colorPicker" data-tooltip="Choose Color">
+    <input type="range" id="sizeChanger" min="1" max="50" value="5" data-tooltip="Brush Size">
+    <label>
+      <input type="checkbox" id="fillToggle" data-tooltip="Fill Shape"> Fill Shape
+    </label>
+    <button id="clear" data-tooltip="Clear Canvas (X)">Clear</button>
+    <button id="save" data-tooltip="Save Canvas">Save</button>
+  </div>
+  <canvas id="whiteboard"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>

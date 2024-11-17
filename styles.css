@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f0f2f5;
+  }
+  
+  .toolbar {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button, input[type="color"], input[type="range"], label {
+    padding: 10px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover, input[type="color"]:hover, input[type="range"]:hover, label:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+  }
+  
+  canvas {
+    border: 1px solid #ccc;
+    background: repeating-linear-gradient(
+        0deg,
+        #f9f9f9,
+        #f9f9f9 20px,
+        #ececec 20px,
+        #ececec 40px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        #f9f9f9,
+        #f9f9f9 20px,
+        #ececec 20px,
+        #ececec 40px
+      );
+    cursor: crosshair;
+  }
+  
+  button {
+    position: relative;
+  }
+  
+  button::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  
+  button:hover::after {
+    opacity: 1;
+  }
+  
