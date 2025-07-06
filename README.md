@@ -4,3 +4,5 @@ https://naiduhydra.github.io/whiteboard-hcj/
 and efficient event handling.
 • Boosted drawing performance by 30% with optimized rendering and input handling.
 • Integrated tools like brush selection, color picker, and clear/reset features, increasing user retention by 20%.
+
+• Integrated tools like brush selection, color picker, and clear/reset features, increasing user retention by 20%.
