@@ -1,6 +1,28 @@
-# whiteboard-hcj
-https://naiduhydra.github.io/whiteboard-hcj/
-• Designed and deployed a real-time collaborative whiteboard supporting 1000+ concurrent users using HTML5 Canvas 
-and efficient event handling.
-• Boosted drawing performance by 30% with optimized rendering and input handling.
-• Integrated tools like brush selection, color picker, and clear/reset features, increasing user retention by 20%.
+# 🧑‍🏫 Whiteboard HCJ
+
+A simple, browser-based whiteboard built using **HTML**, **CSS**, and **JavaScript**. Useful for quick sketches, explanations, diagrams, and rough work. No login or backend — just open and start drawing!
+
+🌐 [Live Demo](https://naiduhydra.github.io/whiteboard-hcj/)
+
+---
+
+## ✨ Features
+
+- 🖊️ Freehand drawing using mouse or touch
+- 🎨 Color and brush size selection
+- ♻️ Clear board button
+- 📱 Responsive design (usable on desktop & mobile)
+- 💡 Lightweight and fast — pure front-end only
+
+---
+
+## 🚀 Getting Started
+
+You can use it directly from the [live site](https://naiduhydra.github.io/whiteboard-hcj/), or clone and run locally:
+
+### Run locally
+
+```bash
+git clone https://github.com/naiduhydra/whiteboard-hcj.git
+cd whiteboard-hcj
+open index.html   # or just double-click the file
